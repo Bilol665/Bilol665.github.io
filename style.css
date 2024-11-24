@@ -1,0 +1,69 @@
+/* General styles */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+h1 {
+    color: #2e8b57; /* Sea green color */
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+/* List styles */
+ul, ol {
+    margin: 20px 40px;
+    font-size: 16px;
+    font-style: italic;
+    list-style-position: inside;
+}
+
+/* Link styles */
+a {
+    color: #1e90ff; /* Dodger blue color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+/* Section headers */
+h2 {
+    color: #4682b4; /* Steel blue color */
+    font-size: 24px;
+    margin: 20px 20px 10px;
+    border-bottom: 2px solid #87ceeb; /* Sky blue underline */
+    padding-bottom: 5px;
+}
+
+/* Footer (if added in the future) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2e8b57;
+    color: #fff;
+    margin-top: 20px;
+}
